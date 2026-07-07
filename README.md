@@ -1,8 +1,34 @@
 # Site Papel de Parede
 
-Projeto simples feito com React + JavaScript + HTML + CSS usando Vite.
+Landing page comercial em React para uma loja de papéis de parede decorativos, com catálogo, filtros, oferta especial, visual premium e chamada direta para WhatsApp.
 
-## Rodar localmente
+## Visão geral
+
+Este projeto foi desenvolvido para demonstrar criação de páginas comerciais modernas para negócios locais. A proposta é apresentar produtos de forma visual, facilitar a navegação do cliente e direcionar a conversão para atendimento via WhatsApp.
+
+## Principais funcionalidades
+
+- Página inicial com hero visual.
+- Chamada comercial direta.
+- Catálogo de produtos.
+- Filtros por estilo.
+- Cards de ambientes.
+- Oferta especial.
+- Selo de qualidade.
+- Benefícios do produto.
+- CTA para WhatsApp.
+- Layout responsivo.
+- Visual preto e dourado inspirado em material de referência.
+
+## Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Lucide React
+
+## Como executar
 
 ```bash
 npm install
@@ -15,21 +41,29 @@ npm run dev
 npm run build
 ```
 
-## Publicar no GitHub Pages
+## Publicação
 
-1. Suba o projeto para um repositório no GitHub.
-2. Rode `npm run build`.
-3. Publique a pasta `dist` ou use uma action de deploy.
+O projeto usa `base: './'` no `vite.config.js`, facilitando publicação no GitHub Pages.
 
-O projeto usa `base: './'` no `vite.config.js`, então funciona bem em GitHub Pages.
+## Diferenciais técnicos
 
-## Elementos incorporados da imagem enviada
+- Componentização em React.
+- Catálogo dinâmico.
+- Filtro de produtos.
+- UX voltada para conversão.
+- CTA direto para WhatsApp.
+- Responsividade para mobile.
+- Visual comercial premium.
 
-- Visual preto e dourado.
-- Chamada principal: “Transforme suas paredes em arte”.
-- Selo de qualidade.
-- Benefícios: fácil aplicação, alta durabilidade e variedade de estilos.
-- Cards de ambientes.
-- Oferta especial com cola grátis.
-- CTA verde para WhatsApp.
-- Telefones no rodapé.
+## Posicionamento no portfólio
+
+Este projeto deve ser usado como case de Front-end, UX/UI e criação de landing pages comerciais para negócios locais.
+
+## Próximas melhorias
+
+- Adicionar screenshots ao README.
+- Criar integração simples com formulário de orçamento.
+- Adicionar seção de depoimentos.
+- Adicionar cálculo de quantidade de rolos por parede.
+- Melhorar SEO.
+- Criar versão com painel simples de produtos.
